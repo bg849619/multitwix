@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>MultiTwix Admin Panel</title>
+        <link rel="stylesheet" href="./style.css" />
+    </head>
+    <body>
+        <ul id="streamlist">
+        </ul>
+        <form id="addstream">
+            <input type="text" id="addstreamtext" />
+            <input type="submit" value="Submit"/>
+        </form>
+        <button id="cancelbutton">Cancel</button>
+        <button id="applybutton">Apply</button>
+    </body>
+    <script src="./app.js">
+        
+    </script>
+    <script>
+        (async () => {
+            await fetchStreams();
+            updateView();
+        })();
+    </script>
+</html>

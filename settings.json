@@ -1,0 +1,12 @@
+{
+    "defaultChannels": [
+        "bobcatesports",
+        "cmichesports",
+        "miamiuniversity",
+        "esportsksu",
+        "northeasternesports",
+        "niuesports",
+        "zipsesports"
+    ],
+    "port":3000
+}

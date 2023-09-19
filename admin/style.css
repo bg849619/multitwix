@@ -1,0 +1,11 @@
+ul {
+    padding: 0;
+    max-width: 250px;
+}
+li {
+    display: block;
+    margin: 5px 0;
+}
+li > button {
+    float: right;
+}

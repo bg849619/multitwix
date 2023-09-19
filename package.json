@@ -1,0 +1,19 @@
+{
+  "name": "multitwix",
+  "version": "0.1.0",
+  "description": "Utility for showing multiple twitch streams in vmix.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Blake Gall (blake@bgall.dev)",
+  "license": "ISC",
+  "dependencies": {
+    "@koa/router": "^12.0.0",
+    "koa": "^2.14.2",
+    "koa-body-parser": "^1.1.2",
+    "koa-mount": "^4.0.0",
+    "koa-static": "^5.0.0"
+  }
+}
